@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SolveGenius",
+    "slug": "solvegenius",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1A0B2E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.solvegenius.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1A0B2E"
+      },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SolveGenius needs access to your photos so you can upload question images.",
+          "cameraPermission": "SolveGenius needs camera access so you can snap a photo of your question."
+        }
+      ]
+    ]
+  }
+}

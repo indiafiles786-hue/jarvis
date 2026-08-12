@@ -4,7 +4,7 @@
     "slug": "solvegenius",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": ,
     "userInterfaceStyle": "dark",
     "splash": {
       "backgroundColor": "#1A0B2E"
@@ -12,9 +12,7 @@
     "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.solvegenius.app",
-      "adaptiveIcon": {
-        "backgroundColor": "#1A0B2E"
-      },
+      
       "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
     },
     "plugins": [

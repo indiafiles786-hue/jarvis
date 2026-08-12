@@ -7,8 +7,10 @@
     "icon": "./icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "backgroundColor": "#1A0B2E"
-    },
+     "image": "./icon.png",
+     "resizeMode": "contain",
+     "backgroundColor": "#1A0B2E"
+   },
     "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.solvegenius.app",
